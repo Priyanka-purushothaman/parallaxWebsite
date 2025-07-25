@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container {
+    line-height: 1.8rem;
+    font-weight: 1000;
+    color: #0f0a0a;
+    font-size: 16px;
+    height: 100%;
+}
+
+.para {
+   position: absolute;
+    top: 40%;
+    text-align: center;
+    color: #141111;
+    font-size: 70px;
+    left: 30%;
+    
+
+}
+
+.content {
+    background-color: black;
+    color: #c2b2b2;
+    padding: 60px;
+    line-height: 2.0rem;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.text {
+    color: rgb(13, 203, 38);
+    text-align: center;
+}
+
+.page {
+    margin-top: 30px;
+}
+
+.section1 {
+    background-image: url(./images/frontimge.jpg);
+    min-height: 500px;
+    background-size: cover;
+}
+
+.section2 {
+    background-image: url(./images/middleimage.jpg);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    
+}
+
+.section3 {
+    background-image: url(./images/lastimage.jpg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+}
+
+.section1,.section2,.section3 {
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+div .section1,.section2 {
+    text-align: left;
+}
+
+@media(max-width:768px){
+    .container{
+      background-attachment: scroll;
+     
+    }
+    .section1{
+       
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    }
+    .section2{
+       
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+    }
+    .section3{
+       
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    }
+
+}
+
+    @media(max-width:768px)and (min-width:480px){
+    .para{
+       font-size: 30px;
+        color: #181212;
+        align-items: center;
+        left: 20%;
+        
+
+     }
+     .content{
+     line-height: 1.8em;
+     }
+ 
+}
